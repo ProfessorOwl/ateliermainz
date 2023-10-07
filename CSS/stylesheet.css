@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre:wght@400;700&display=swap');
+/* HTML HAUPTSEITE UND ALLGEMEINE DEFINITIONEN*/
+
+body {
+  margin: 0;
+  font-family: 'Proza Libre', sans-serif;
+  background-color: rgb(216, 31, 61);
+}
+
+p {
+  font-size: 20px;
+  margin: 0;
+}
+
+h6 {
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0;
+}
+
+h5 {
+  font-weight: 700;
+  font-size: 36px;
+  margin: 0;
+}
+h4 {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.355);
+  color: rgb(216, 31, 61);
+  padding: 20px;
+  border-bottom: 3px solid;
+  margin: 0;
+}
+
+#Container-Hero {
+  margin: 0;
+  padding: 0;
+}
+#Buchwerkstatt_Logo {
+  position: absolute;
+  left: 1em;
+  top: 1em;
+  display: block;
+  padding: 1em 0;
+  margin: 0;
+  width: 30vw;
+  z-index: 1;
+}
+
+#Main_Video {
+  filter:sepia(20%) contrast(80%) saturate(80%);
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#Kontaktfeld {
+  display:block;
+  text-align: center;
+  color: white;
+  background-color: rgb(216, 31, 61);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#Kontaktfeld-Titel {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.Herobild {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#Rubriken {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  background-color: rgb(216, 31, 61);
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.Rubriken-Text {
+  color: white;
+  padding: 0.5em 1em;
+}
+
+#Druck {
+  text-align: center;
+  background-color: rgb(216, 31, 61);
+  padding: 40px 0;
+}
+
+#Druck-Titel {
+  color: white;
+  padding-bottom: 20px;
+}
+
+#Druck-Text {
+  color: white;
+}
+
+#Service {
+  text-align: center;
+  background-color: rgb(216, 31, 61);
+  padding: 40px 0;
+}
+
+#Service-Text {
+  color: white;
+}
+
+#Footer {
+  display: flex;
+  margin: 0 auto;
+  background-color: rgb(216, 31, 61);
+  justify-content: space-around;
+  padding: 40px 0;
+}
+
+.Footer-Text {
+  color: white;
+  padding: 0.5em 1em;
+}
+.grid-left {
+  justify-self: left;
+}
+.grid-right {
+  justify-self: right;
+}
+.grid-center {
+  justify-self: center;
+}
+.nored {
+  background-color: white;
+}
+.nored p {
+  background-color: rgb(216, 31, 61);
+  color: white;
+  padding: 40px;
+}

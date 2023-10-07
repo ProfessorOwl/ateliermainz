@@ -1,0 +1,42 @@
+#Footer-Kontakt {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: rgb(216, 31, 61);
+    justify-content: space-around;
+    padding: 40px 0;
+    gap: 10px 20px;
+   }
+#Footer-Kontakt div {
+  width: 240px;
+}
+   .Footer-Kontakt-Item {
+     text-align:left;
+     padding: 0.5em 0;
+   }
+  
+   .Öffnungszeiten {
+     display: grid;
+     grid-template-columns: auto auto;
+     grid-template-rows: auto auto auto auto auto;
+   }
+  .Socialmedia {
+     display: grid;
+     row-gap: 5px;
+     align-items: center;
+     grid-template-columns: auto auto;
+     grid-template-rows: auto auto auto auto;
+  }
+  .Socialmedia-Icons {
+    width: 30px;
+  }
+  .Telefon {
+    display: grid;
+    column-gap: 10px;
+    row-gap: 5px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto;  
+  }
+  .Telefon-Items { 
+  }

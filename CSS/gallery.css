@@ -1,0 +1,23 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px 40px;
+    margin: 40px;
+}
+.gallery img {
+    width: 400px;
+    height: auto;
+}
+.gallery .wideimage {
+    width: 880px;
+    height: auto;
+}
+.gallery .superwideimage {
+    width: 1360px;
+    height: auto;
+}
+.gallery p {
+    width: 320px;
+    height: 320px;
+}
