@@ -214,18 +214,16 @@ h4 {
   #navbutton {
     position: fixed;
     grid-template-columns: auto;
-    padding: 20px;
-    background-color: rgba(81, 2, 15, 0.8);
+    padding: 15px;
+    background-color: rgba(81, 2, 15, 0.5);
     right: 30px;
-    bottom: 30px;
     left: auto;
-    top: auto;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(1px);
     z-index: 100;
   }
   #navbutton img {
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    width: 35px;
   }
   #navbutton p {
     display: none;
