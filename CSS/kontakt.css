@@ -1,16 +1,18 @@
 #Footer-Kontakt {
     color: white;
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    background-color: rgb(216, 31, 61);
+    background-color: var(--maincolor);
     justify-content: space-around;
     padding: 40px 0;
-    gap: 10px 20px;
-   }
-#Footer-Kontakt div {
-  width: 240px;
-}
+    gap: 10px 40px;
+    box-shadow: var(--shadowaround);
+    -webkit-box-shadow: var(--shadowaround);
+    -moz-box-shadow: var(--shadowaround);
+    clip-path: inset(-50px 0px 0px 0px);
+  }
    .Footer-Kontakt-Item {
      text-align:left;
      padding: 0.5em 0;
@@ -30,6 +32,7 @@
   }
   .Socialmedia-Icons {
     width: 30px;
+    margin: 0 30px;
   }
   .Telefon {
     display: grid;
@@ -40,3 +43,23 @@
   }
   .Telefon-Items { 
   }
+@media only screen and (max-width: 480px){
+  #Footer-Kontakt{
+    gap: 20px 40px;
+  }
+  #Footer-Kontakt div {
+    width: 320px;
+  }
+  h6 {
+    font-size: 24px;
+    margin: 0 15px;
+  }
+  p {
+    font-size: 20px;
+    margin: 3px 15px;
+  }
+  .Socialmedia-Icons {
+    margin: 0 15px;
+  }
+}
+    
