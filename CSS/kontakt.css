@@ -14,8 +14,10 @@
     clip-path: inset(-50px 0px 0px 0px);
   }
    .Footer-Kontakt-Item {
-     text-align:left;
      padding: 0.5em 0;
+   }
+   #Footer-Kontakt div p{
+    text-align: left;
    }
   
    .Öffnungszeiten {
