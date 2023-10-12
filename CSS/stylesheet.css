@@ -17,6 +17,8 @@ body {
 p {
   font-size: 20px;
   margin: 0 30px;
+  text-align: center;
+  color: white;
 }
 
 h6 {
@@ -34,11 +36,15 @@ h4 {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.355);
+  background-color: rgb(255, 255, 255);
   color: var(--maincolor);
   padding: 20px;
   border-bottom: 3px solid;
   margin: 0;
+}
+.margin-top {
+  margin-top: 20px;
+  text-align: justify;
 }
 
 #navbutton {
@@ -205,6 +211,18 @@ h4 {
   padding: 40px;
 }
 @media only screen and (max-width: 720px) {
+  #navbutton {
+    grid-template-columns: auto;
+    padding: 10px;
+    background-color: rgba(129, 5, 26, 0.8);
+  }
+  #navbutton img {
+    height: 50px;
+    width: 50px;
+  }
+  #navbutton p {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -214,6 +232,10 @@ h4 {
     margin: 0 auto;
     width: 80%;
     filter: brightness(0) saturate(100%)invert(100%);
+  }
+  h4 {
+    font-size: 30px;
+    padding: 20px 15px;
   }
   h5 {
     font-size: 24px;
@@ -246,6 +268,10 @@ h4 {
   }
 }
 @media only screen and (max-width: 360px) {
+  h4 {
+    font-size: 27px;
+    padding: 20px 10px;
+  }
   h5 {
     font-size: 22px;
     margin: 0 15px;
